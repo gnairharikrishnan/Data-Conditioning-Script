@@ -1,0 +1,8 @@
+This file contains instruction on how to use the script.
+
+1. Rename the Access Log that you got from the mongoDB server to test.csv
+2. Copy it into this folder/directory
+3. Run the python script called Access_dcon.py using the comand "python Access_dcon.py"
+4. This will generate 2 files, cond_test.csv and result.csv.
+5. Ignore the cond_test.csv file. The output is present in the result.csv file
+6. The script converts the unix time found in the access logs to standard GMT time. However, its saved as a float variable. To convert it to a date and time, select the time column and right click to format. Select the appropriate format( 3/14/15 1:30 PM recommended). 
