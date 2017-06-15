@@ -2,8 +2,6 @@
 # Date:        06/13/17
 # Description: This script can be used to condition the raw accesslogs received from the MongoDB server. 
 #              For instructions on using the script refer to the readme file attached.
-#
-# copyright Latch Access
 ########################################################################################################
 
 import csv
